@@ -4,14 +4,14 @@ End-to-end Power BI project for VitalPulse Sports. From **ERP extraction to dash
 ### Repository Structure
 VitalPulse-BI-Project/
 
-- ***README.md*** # Main documentation
+- ***README.md*** --> Main documentation
 - **data**/
-  - *ExtraccionERP.xlsx* # ERP extract (source dataset)
+  - ***ExtraccionERP.xlsx*** --> ERP extract (source dataset)
 - **reports**/
-  - *Proyecto final.pdf* # Final dashboards (screenshots)
-  - *VitalPulse.pbix* # Power BI file
+  - ***Proyecto final.pdf*** --> Final dashboards (screenshots)
+  - ***VitalPulse.pbix*** # Power BI file
 - **docs**/
-  - *FullExplanation.pdf* # Full technical explanation
+  - ***FullExplanation.pdf*** --> Full technical explanation
 
 
 ### Objectives
