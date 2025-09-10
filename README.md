@@ -86,26 +86,25 @@ Three dashboards were developed:
 
 2. **Open VitalPulse.pbix in Power BI Desktop**.
 
-   File: reports/Proyecto final.pbix
+   File: [reports/Proyecto final.pbix](reports/Proyecto%20final.pbix)
 
-   Explore the dashboards, visuals, and DAX measures already set up.
+     - Explore the dashboards, visuals, and DAX measures already set up.
 
 3. **Explore the ERP dataset**
    
-   File: data/ExtraccionERP.xlsb
+   File: [data/ExtraccionERP.xlsb](data/ExtraccionERP.xlsb)
 
-   This is the raw ERP extract in Excel Binary Workbook format (.xlsb), which helps reduce file size compared to .xlsx.
+     - This is the raw ERP extract in Excel Binary Workbook format (.xlsb), which helps reduce file size compared to .xlsx.
 
-   You can open it directly in Excel or import it into Power BI.
+     - You can open it directly in Excel or import it into Power BI.
 
-   If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.
+     - If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.
 
 4. **Review the data model design**
 
-   File: modelling/Data Modelling.xlsx
+   File: [modelling/Data Modelling.xlsx](modelling/Data%20Modelling.xlsx)
 
-   Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.
-
+     - Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.
 
 
 
