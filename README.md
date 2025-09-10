@@ -24,7 +24,7 @@ VitalPulse-BI-Project/
 
 
 ### Table of Contents of the technical explanation
-See the full explanation in [`docs/VitalPulse.pdf`](docs/VitalPulse.pdf)
+See the full explanation in [`docs/FullExplanation.pdf`](docs/FullExplanation.pdf)
 
 1. [Requirements Gathering](#1-requirements-gathering)  
 2. [Data Extraction & Transformation](#2-data-extraction--transformation)  
