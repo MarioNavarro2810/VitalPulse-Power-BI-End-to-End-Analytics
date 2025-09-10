@@ -1,17 +1,17 @@
 # VitalPulse-Power-BI-End-to-End-Analytics
-End-to-end Power BI project for VitalPulse Sports. From ERP extraction to dashboards, aligned with client needs to deliver insights on sales, logistics, products, and customers, supporting data-driven decisions and inventory optimization.
+End-to-end Power BI project for VitalPulse Sports. From **ERP extraction to dashboards**, aligned with client needs to deliver insights on sales, logistics, products, and customers, supporting **data-driven decisions** and inventory optimization.
 
 ### Repository Structure
 VitalPulse-BI-Project/
-│
-├── README.md # Main documentation
-├── **data**/
-│ └── ExtraccionERP.xlsx # ERP extract (source dataset)
-├── **reports**/
-│ ├── Proyecto final.pdf # Final dashboards (screenshots)
-│ └── VitalPulse.pbix # Power BI file
-├── **docs**/
-  └── VitalPulse.pdf # Full technical explanation
+
+- README.md # Main documentation
+- **data**/
+  - ExtraccionERP.xlsx # ERP extract (source dataset)
+- **reports**/
+  - Proyecto final.pdf # Final dashboards (screenshots)
+  - VitalPulse.pbix # Power BI file
+**docs**/
+  - VitalPulse.pdf # Full technical explanation
 
 
 ### Objectives
@@ -26,13 +26,13 @@ VitalPulse-BI-Project/
 ### Table of Contents of the technical explanation
 See the full explanation in [`docs/VitalPulse.pdf`](docs/VitalPulse.pdf)
 
-1. [Requirements Gathering](#requirements-gathering)  
-2. [Data Extraction & Transformation](#data-extraction--transformation)  
-3. [Data Modelling](#data-modelling)  
-4. [DAX Calculations](#dax-calculations)  
-5. [Dashboard Design](#dashboard-design)  
-6. [Final Results](#final-results)  
-7. [How to Use This Project](#how-to-use-this-project)
+1. [Requirements Gathering](#1-requirements-gathering)  
+2. [Data Extraction & Transformation](#2-data-extraction--transformation)  
+3. [Data Modelling](#3-data-modelling)  
+4. [DAX Calculations](#4-dax-calculations)  
+5. [Dashboard Design](#5-dashboard-design)  
+6. [Final Results](#6-final-results)  
+7. [How to Use This Project](#7-how-to-use-this-project)
 
 ### 1. Requirements Gathering
 - Source: ERP export (`ExtraccionERP.xlsx`) with 33 columns in flat format.    
@@ -78,15 +78,15 @@ Three dashboards were developed:
 - 📄 [PDF Report](docs/VitalPulse.pdf) 
 
 ### 7. How to Use This Project
-1. Clone the repository:  
+1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/your-username/VitalPulse-BI-Project.git
+   git clone https://github.com/MarioNavarro2810/VitalPulse-BI-Project.git
 
-2. Open VitalPulse.pbix in Power BI Desktop.
+2. **Open VitalPulse.pbix in Power BI Desktop**.
 
-3. Explore the model, DAX measures, and dashboards.
+3. **Explore the model, DAX measures, and dashboards**.
 
-4. Use data/ExtraccionERP.xlsx to refresh the dataset.
+4. **Use data/ExtraccionERP.xlsx to refresh the dataset**.
 
 
 
