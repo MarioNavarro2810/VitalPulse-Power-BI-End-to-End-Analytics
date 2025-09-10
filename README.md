@@ -89,11 +89,11 @@ Three dashboards were developed:
    File: data/ExtraccionERP.xlsb<br>
    This is the raw ERP extract in Excel Binary Workbook format (.xlsb), which helps reduce file size compared to .xlsx.<br>
    You can open it directly in Excel or import it into Power BI.<br>
-   If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.<br>
+   If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.
 
 5. **Review the data model design**<br>
    File: modelling/Data Modelling.xlsx<br>
-   Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.<br>
+   Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.
 
 
 
