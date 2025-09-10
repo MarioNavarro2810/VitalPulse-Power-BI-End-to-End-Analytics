@@ -78,24 +78,26 @@ Three dashboards were developed:
 
 ### 7. How to Use This Project
 1. **Clone the repository**:<br>  
+
    ```bash<br>
    git clone https://github.com/MarioNavarro2810/VitalPulse-BI-Project.git
 
-2. **Open VitalPulse.pbix in Power BI Desktop**.<br>
+3. **Open VitalPulse.pbix in Power BI Desktop**.<br>
+
    File: reports/Proyecto final.pbix<br>
    Explore the dashboards, visuals, and DAX measures already set up.
 
-3. **Explore the ERP dataset**<br>
+4. **Explore the ERP dataset**<br>
 
    File: data/ExtraccionERP.xlsb<br>
    This is the raw ERP extract in Excel Binary Workbook format (.xlsb), which helps reduce file size compared to .xlsx.<br>
    You can open it directly in Excel or import it into Power BI.<br>
    If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.<br>
 
-4. **Review the data model design**<br>
+5. **Review the data model design**<br>
 
-File: modelling/Data Modelling.xlsx<br>
-Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.<br>
+  File: modelling/Data Modelling.xlsx<br>
+  Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.<br>
 
 
 
