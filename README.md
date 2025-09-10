@@ -96,8 +96,8 @@ Three dashboards were developed:
 
 5. **Review the data model design**<br>
 
-  File: modelling/Data Modelling.xlsx<br>
-  Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.<br>
+   File: modelling/Data Modelling.xlsx<br>
+   Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.<br>
 
 
 
