@@ -6,12 +6,16 @@ VitalPulse-BI-Project/
 
 - ***README.md*** --> Main documentation
 - **data**/
-  - ***ExtraccionERP.xlsx*** --> ERP extract (source dataset)
+  - ***ExtraccionERP.xlsb*** --> ERP extract (source dataset)
 - **reports**/
   - ***Proyecto final.pdf*** --> Final dashboards (screenshots)
   - ***VitalPulse.pbix*** # Power BI file
 - **docs**/
   - ***FullExplanation.pdf*** --> Full technical explanation
+- **modelling**/
+  - ***Data Modelling.xlsx*** --> Custom Excel to explain the data model created from the ERP file
+ 
+    
 
 
 ### Objectives
@@ -35,7 +39,7 @@ See the full explanation in [`docs/FullExplanation.pdf`](docs/FullExplanation.pd
 7. [How to Use This Project](#7-how-to-use-this-project)
 
 ### 1. Requirements Gathering
-- Source: ERP export (`ExtraccionERP.xlsx`) with 33 columns in flat format.    
+- Source: ERP export (`ExtraccionERP.xlsb`) with 33 columns in flat format.    
 - Key metrics: Sales (MoM/YoY), margin evolution, delayed & cancelled orders, customer segmentation, top-selling products.  
 - Objective: Deliver dashboards fully aligned with the client’s decision-making needs.  
 
@@ -45,18 +49,14 @@ See the full explanation in [`docs/FullExplanation.pdf`](docs/FullExplanation.pd
 - Corrected data types, removed duplicates/nulls, and fixed anomalies.
 
 ### 3. Data Modelling
-- Built a **star schema**:  
+- Built a **star schema**:
   - Fact tables: `f_nvl_ventas` (sales line level), `f_nvl_pedido` (order level).  
   - Dimension tables: Customers, Orders, Products, Dates.  
 - Ensured correct granularity: order vs. sales line.  
 - One-to-many relationships from dimensions to facts.
-
-### 4. DAX Calculations
-Created measures to analyze:  
-- **Sales KPIs**: monthly totals, MoM & YoY growth, trends.  
-- **Margins**: % margin evolution, growth comparisons.  
-- **Orders & Logistics**: cancelled, delayed, avg. units/order.  
-- **Customers**: number by region, mapping fixes (e.g., Puerto Rico).   
+- The star schema design and table relationships are also documented in a dedicated Excel file:  
+  [`modelling/Data Modelling.xlsx`](modelling/Data%20Modelling.xlsx)  
+  This file includes the mapping of fact and dimension tables, granularity levels, and schema structure used in Power BI.
 
 ### 4. DAX Calculations
 Created measures to analyze:  
@@ -64,7 +64,6 @@ Created measures to analyze:
 - **Margins**: % margin evolution, growth comparisons.  
 - **Orders & Logistics**: cancelled, delayed, avg. units/order.  
 - **Customers**: number by region, mapping fixes (e.g., Puerto Rico).
-
 
 ### 5. Dashboard Design
 Three dashboards were developed:  
@@ -83,10 +82,20 @@ Three dashboards were developed:
    git clone https://github.com/MarioNavarro2810/VitalPulse-BI-Project.git
 
 2. **Open VitalPulse.pbix in Power BI Desktop**.
+   File: reports/Proyecto final.pbix
+   Explore the dashboards, visuals, and DAX measures already set up.
 
-3. **Explore the model, DAX measures, and dashboards**.
+3. **Explore the ERP dataset**
 
-4. **Use data/ExtraccionERP.xlsx to refresh the dataset**.
+   File: data/ExtraccionERP.xlsb
+   This is the raw ERP extract in Excel Binary Workbook format (.xlsb), which helps reduce file size compared to .xlsx.
+   You can open it directly in Excel or import it into Power BI.
+   If you prefer .xlsx, simply open the file in Excel and save it as Excel Workbook (.xlsx)*.
+
+4. **Review the data model design**
+
+File: modelling/Data Modelling.xlsx
+Contains the star schema, fact and dimension tables, and relationship design used in the Power BI report.
 
 
 
