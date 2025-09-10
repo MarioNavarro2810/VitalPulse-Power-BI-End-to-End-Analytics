@@ -74,7 +74,7 @@ Three dashboards were developed:
 
 ### 6. Final Results
 - 📊 [Live Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiOGI4MzllNjQtMWY0Yi00MmM1LWI0NDMtMDUwMmVmODIzMzVhIiwidCI6IjAzYTBmYjY5LWE0ZDAtNDQyZC1hNGQ0LWNmYjVkYTgwNzUwMCJ9)  
-- 📄 [PDF Report](docs/ProyectoFinal.pdf) 
+- 📄 [PDF Report](reports/ProyectoFinal.pdf) 
 
 ### 7. How to Use This Project
 1. **Clone the repository**: 
